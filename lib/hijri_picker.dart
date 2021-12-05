@@ -1011,7 +1011,7 @@ Future<HijriCalendar?> showHijriDatePicker({
       'Provided initialDate must satisfy provided selectableDayPredicate');
 
    Widget child = SingleChildScrollView(
-      child: _DatePickerDialog(
+      child: new HijriDatePickerDialog(
     initialDate: initialDate,
     firstDate: firstDate,
     lastDate: lastDate,
