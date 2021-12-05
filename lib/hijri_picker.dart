@@ -872,7 +872,7 @@ class HijriDayPicker extends StatelessWidget {
             child: new Center(
               child: new ExcludeSemantics(
                 child: new Text(
-                  "${displayedMonth.toFormat("MMMM")} ${displayedMonth.hYear}",
+                  "${displayedMonth.toFormat("mm")} ${displayedMonth.hYear}",
                   style: themeData.textTheme.subtitle1,
                 ),
               ),
