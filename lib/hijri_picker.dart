@@ -15,7 +15,7 @@ export 'src/hijri_calendar_builders.dart';
 
 const double _kMonthPickerPortraitWidth = 330.0;
 const double _kMonthPickerLandscapeWidth = 344.0;
-const double _kDatePickerHeaderPortraitHeight = 120.0;
+const double _kDatePickerHeaderPortraitHeight = 200.0;
 const double _kDatePickerHeaderLandscapeWidth = 168.0;
 const double _kDayPickerRowHeight = 42.0;
 const int _kMaxDayPickerRowCount = 6; // A 31 day month that starts on Saturday.
